@@ -38,21 +38,17 @@ Cette application vous permet de gérer votre collection de Pokémon. Vous pouve
 
 ## Capture d'écran de l'Application
 
-<img src="./assets/screenshots/lightmodev1.png" width="300px" height="auto" />
-<img src="./assets/screenshots/darkmodev1.png" width="300px" height="auto" />
+<img src="./assets/screenshots/lightmodev1.png" width="300px" height="auto" /><img src="./assets/screenshots/darkmodev1.png" width="300px" height="auto" />
 
 *Capture d'écran de la page d'accueil de l'application, montrant une liste de pokemon filtrable par nom, id et type, utilisation du darkmode possible.*
 
 
-<img src="./assets/screenshots/cartview.png" width="300px" height="auto" />
-<img src="./assets/screenshots/cartview2.png" width="300px" height="auto" />
+<img src="./assets/screenshots/cartview.png" width="300px" height="auto" /><img src="./assets/screenshots/cartview2.png" width="300px" height="auto" />
 
 *Capture d'écran de la page de l'écran de la collection de pokemon avec possibilité de suppression totale ou individuelle et navigation vers les détails.*
 
 
-<img src="./assets/screenshots/evolution1.png" width="300px" height="auto" />
-<img src="./assets/screenshots/evolution2.png" width="300px" height="auto" />
-<img src="./assets/screenshots/evolution3.png" width="300px" height="auto" />
+<img src="./assets/screenshots/evolution1.png" width="300px" height="auto" /><img src="./assets/screenshots/evolution2.png" width="300px" height="auto" /><img src="./assets/screenshots/evolution3.png" width="300px" height="auto" />
 <img src="./assets/screenshots/detailview.png" width="300px" height="auto" />
 
 *Capture d'écran de la page de détail du pokemon avec possibilité de d'ajout du pokemon à la collection et possibilté de naviguer vers la fiche pokemon suivante ou précédente.*
