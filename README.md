@@ -33,10 +33,17 @@ Cette application vous permet de gérer votre collection de Pokémon. Vous pouve
 2. Lancer l'émulateur depuis Android studio (utilisation du Pixel 8 Pro Api 34 avec Android 14.0 |x86_64)
 3. Modifie le fichier build.gradle dans /android/app et ajouter ligne 4:
    {apply from: "../../node_modules/react-native-vector-icons/fonts.gradle}
-5. Lancer l'installation des dépendances avec npm i
-4. Lancer le build de l'application avec npx react-native run-android dans la racine du projet
+4. Lancer l'installation des dépendances avec npm i
+5. Lancer le build de l'application avec npx react-native run-android dans la racine du projet
 
 ## Capture d'écran de l'Application
+
+<img src="./assets/screenshots/aperçu maquette.png" width="300px" height="auto" />
+
+*Aperçu de la maquette avec les écrans principaux*
+
+lien figma:
+<iframe style="border: 1px solid rgba(0, 0, 0, 0.1);" width="800" height="450" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Ffile%2FmNXusLu78W8mAbx5OvJfZy%2FMaquette-ECF%3Ftype%3Ddesign%26mode%3Ddesign%26t%3D9eAl3TvoInhwj9zg-1" allowfullscreen></iframe>
 
 <img src="./assets/screenshots/lightmodev1.png" width="300px" height="auto" /> <img src="./assets/screenshots/darkmodev1.png" width="300px" height="auto" />
 
@@ -53,9 +60,3 @@ Cette application vous permet de gérer votre collection de Pokémon. Vous pouve
 
 *Capture d'écran de la page de détail du pokemon avec possibilité de d'ajout du pokemon à la collection et possibilté de naviguer vers la fiche pokemon suivante ou précédente.*
 
-<img src="./assets/screenshots/aperçu maquette.png" width="300px" height="auto" />
-
-*Aperçu de la maquette avec les écrans principaux*
-
-lien figma:
-<iframe style="border: 1px solid rgba(0, 0, 0, 0.1);" width="800" height="450" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Ffile%2FmNXusLu78W8mAbx5OvJfZy%2FMaquette-ECF%3Ftype%3Ddesign%26mode%3Ddesign%26t%3D9eAl3TvoInhwj9zg-1" allowfullscreen></iframe>
