@@ -1,79 +1,62 @@
-This is a new [**React Native**](https://reactnative.dev) project, bootstrapped using [`@react-native-community/cli`](https://github.com/react-native-community/cli).
+# Pokémon Collection App
 
-# Getting Started
+Cette application vous permet de gérer votre collection de Pokémon. Vous pouvez consulter la liste des Pokémon disponibles, ajouter des Pokémon à votre collection, les supprimer et même afficher les détails de chaque Pokémon.
 
->**Note**: Make sure you have completed the [React Native - Environment Setup](https://reactnative.dev/docs/environment-setup) instructions till "Creating a new application" step, before proceeding.
+## Fonctionnalités
 
-## Step 1: Start the Metro Server
+- Affichage de la liste des Pokémon disponibles
+- système de navigation (Tab et Stack)
+- Filtrage des Pokémon par nom, ID et type
+- Ajout de Pokémon à votre collection
+- Suppression de Pokémon de votre collection
+- Affichage des détails de chaque Pokémon (depuis la collection aussi)
+- Possibilité de naviguer d'une fiche pokémon à l'autre
+- DarkMode (en cours possibilité de l'améliorer avec Appearance de React Native)
+- Persistance des données en cache (en cours utilisation de redux-persist et AsyncStorage) retirée soucis d'implémentation
+- Amélioration possible:
+- Utilisation d'un composant CustomButton 
+- utilisation d'un composant pour éviter les occurences pour l'affichage des pokemons
+- Utilisation de requete API avec plus de précisions
 
-First, you will need to start **Metro**, the JavaScript _bundler_ that ships _with_ React Native.
+## Technologies utilisées
 
-To start Metro, run the following command from the _root_ of your React Native project:
+- React Native
+- Redux Toolkit
+- React Navigation
+- Async Storage
+- react-native-appearance(en cours)
+- Redux Persist(en cours)
 
-```bash
-# using npm
-npm start
+## Installation
 
-# OR using Yarn
-yarn start
-```
+1. Clonez ce dépôt sur votre machine locale :
+2. Lancer l'émulateur depuis Android studio (utilisation du Pixel 8 Pro Api 34 avec Android 14.0 |x86_64)
+3. Modifie le fichier build.gradle dans /android/app et ajouter ligne 4:
+   {apply from: "../../node_modules/react-native-vector-icons/fonts.gradle}
+5. Lancer l'installation des dépendances avec npm i
+4. Lancer le build de l'application avec npx react-native run-android dans la racine du projet
 
-## Step 2: Start your Application
+## Capture d'écran de l'Application
 
-Let Metro Bundler run in its _own_ terminal. Open a _new_ terminal from the _root_ of your React Native project. Run the following command to start your _Android_ or _iOS_ app:
+<img src="./assets/screenshots/lightmodev1.png" width="300px" height="auto" />
+<img src="./assets/screenshots/darkmodev1.png" width="300px" height="auto" />
 
-### For Android
+*Capture d'écran de la page d'accueil de l'application, montrant une liste de pokemon filtrable par nom, id et type, utilisation du darkmode possible.*
 
-```bash
-# using npm
-npm run android
 
-# OR using Yarn
-yarn android
-```
+<img src="./assets/screenshots/cartview.png" width="300px" height="auto" />
+<img src="./assets/screenshots/cartview2.png" width="300px" height="auto" />
 
-### For iOS
+*Capture d'écran de la page de l'écran de la collection de pokemon avec possibilité de suppression totale ou individuelle et navigation vers les détails.*
 
-```bash
-# using npm
-npm run ios
 
-# OR using Yarn
-yarn ios
-```
+<img src="./assets/screenshots/evolution1.png" width="300px" height="auto" />
+<img src="./assets/screenshots/evolution2.png" width="300px" height="auto" />
+<img src="./assets/screenshots/evolution3.png" width="300px" height="auto" />
+<img src="./assets/screenshots/detailview.png" width="300px" height="auto" />
 
-If everything is set up _correctly_, you should see your new app running in your _Android Emulator_ or _iOS Simulator_ shortly provided you have set up your emulator/simulator correctly.
+*Capture d'écran de la page de détail du pokemon avec possibilité de d'ajout du pokemon à la collection et possibilté de naviguer vers la fiche pokemon suivante ou précédente.*
 
-This is one way to run your app — you can also run it directly from within Android Studio and Xcode respectively.
+<img src="./assets/screenshots/aperçu maquette.png" width="300px" height="auto" />
 
-## Step 3: Modifying your App
-
-Now that you have successfully run the app, let's modify it.
-
-1. Open `App.tsx` in your text editor of choice and edit some lines.
-2. For **Android**: Press the <kbd>R</kbd> key twice or select **"Reload"** from the **Developer Menu** (<kbd>Ctrl</kbd> + <kbd>M</kbd> (on Window and Linux) or <kbd>Cmd ⌘</kbd> + <kbd>M</kbd> (on macOS)) to see your changes!
-
-   For **iOS**: Hit <kbd>Cmd ⌘</kbd> + <kbd>R</kbd> in your iOS Simulator to reload the app and see your changes!
-
-## Congratulations! :tada:
-
-You've successfully run and modified your React Native App. :partying_face:
-
-### Now what?
-
-- If you want to add this new React Native code to an existing application, check out the [Integration guide](https://reactnative.dev/docs/integration-with-existing-apps).
-- If you're curious to learn more about React Native, check out the [Introduction to React Native](https://reactnative.dev/docs/getting-started).
-
-# Troubleshooting
-
-If you can't get this to work, see the [Troubleshooting](https://reactnative.dev/docs/troubleshooting) page.
-
-# Learn More
-
-To learn more about React Native, take a look at the following resources:
-
-- [React Native Website](https://reactnative.dev) - learn more about React Native.
-- [Getting Started](https://reactnative.dev/docs/environment-setup) - an **overview** of React Native and how setup your environment.
-- [Learn the Basics](https://reactnative.dev/docs/getting-started) - a **guided tour** of the React Native **basics**.
-- [Blog](https://reactnative.dev/blog) - read the latest official React Native **Blog** posts.
-- [`@facebook/react-native`](https://github.com/facebook/react-native) - the Open Source; GitHub **repository** for React Native.
+*Aperçu de la maquette avec les écrans principaux*
