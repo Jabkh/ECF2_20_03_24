@@ -56,3 +56,6 @@ Cette application vous permet de gérer votre collection de Pokémon. Vous pouve
 <img src="./assets/screenshots/aperçu maquette.png" width="300px" height="auto" />
 
 *Aperçu de la maquette avec les écrans principaux*
+
+lien figma:
+<iframe style="border: 1px solid rgba(0, 0, 0, 0.1);" width="800" height="450" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Ffile%2FmNXusLu78W8mAbx5OvJfZy%2FMaquette-ECF%3Ftype%3Ddesign%26mode%3Ddesign%26t%3D9eAl3TvoInhwj9zg-1" allowfullscreen></iframe>
